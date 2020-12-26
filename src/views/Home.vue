@@ -23,7 +23,7 @@ export default {
         //post request
         const {name, mail, message} = newForm;
 
-        axios.post('http://localhost:8081/postuser', {
+        axios.post('http://localhost:8081/postForm', {
           name,
           mail,
           message
